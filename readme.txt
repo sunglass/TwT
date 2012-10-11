@@ -1,4 +1,4 @@
-This code uses axax to access the sunglass API and pull stats from your projects. 
+This code uses ajax to access the sunglass API and pull stats from your projects. 
 
 For Development, you minght runinto cross-domain problems. if so, you can use the following command from terminal (in MAC) to open chrome w/o security measures enabled. This will allow the cross-domain ajax calls until you are ready to push to the main server, after which it will not be a problem. 
 
