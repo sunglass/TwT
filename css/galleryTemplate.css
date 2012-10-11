@@ -1,0 +1,120 @@
+/* styles for project gallery template*/
+body{
+    background-image: url("../imgs/cardboard_flat-dk.png");
+	/*background-image: url("../imgs/pattern.gif");*/
+    margin: 0px;
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	width: 100%;
+	height: 100%;
+	font-size: 12px;
+	line-height: 12px;
+}
+
+#mainContentWrapper{
+	position: relative;
+	float: left;
+	height: 100%;
+	width:100%;
+	overflow: scroll;
+	background-color: #F0F0F0;
+	padding-bottom: 63px;
+	margin-bottom: 13px;
+	margin-right: -15px;
+}
+
+.pageTitle{
+	font: 16px 'TitilliumText22LRegular', Arial, sans-serif;
+	color: white;
+	left: 40px;
+	top: 14px;
+	position: absolute;
+	text-transform:uppercase;
+}
+
+.projectDiv{
+	position:relative;
+	width:100%;
+	background-color: #f4f4f4;
+	min-height:200px;
+	position:relative;
+	overflow:hidden;
+	display:inline-block;
+	padding-left:20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #666;
+}
+
+.projectDiv hr{
+	width: 50%;
+	margin-left:0px;
+	clear: both;
+	border: 0;
+	color: #999;
+	background-color: #999;
+	height: 1px;
+	background-color: #;
+}
+
+.projectImage{
+	height:300px;
+	float:left;
+	clear:both;
+}
+
+.noteImage{
+	height:200px;
+	float:left;
+	clear:both;
+}
+
+.imageDiv{
+	width:100%;
+	float:left;
+	margin-bottom:20px;
+}
+
+.projectTitle{
+	font: 18px 'TitilliumText22LBold',Arial,sans-serif;
+	text-transform:uppercase;
+	color: #999;
+	font-weight:bold;
+}
+
+.projectText{
+	font: 12px/12px 'TitilliumText22LThin',Arial,sans-serif;
+	color: #999;
+}
+
+.projectTextBold{
+	font: 12px/12px 'TitilliumText22LBold',Arial,sans-serif;
+	color: #999;
+	font-weight:bold;
+}
+
+.projectSmall{
+	font: 9px/9px 'TitilliumText22LRegular',Arial,sans-serif;
+	padding-top: 7px;
+	color: #999;
+	line-height: 0px;
+}
+
+.noProjects{
+	position:relative;
+	background-color: #f4f4f4;
+	height:200px;
+	width:100%;
+	margin-bottom: -5px;
+	position:relative;
+	overflow:hidden;
+	display:inline-block;
+	border-bottom: 1px solid #666;
+}
+
+.bottomBuffer{
+	width:100%;
+	height:300px;
+}
+
+/* end styles for gallery */
